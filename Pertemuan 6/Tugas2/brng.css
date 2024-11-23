@@ -1,0 +1,53 @@
+body{
+    background-color: blue;
+}
+
+.koleksi {
+    text-align: center;
+}
+
+.koleksi .burung1{
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.koleksi .burung1:hover{
+    transform: scale(1.1);
+}
+
+.koleksi .burung2{
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+    
+}
+.koleksi .burung2:hover{
+    transform: scale(1.1);
+}
+
+.koleksi .burung3{
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+    
+}
+.koleksi .burung3:hover{
+    transform: scale(1.1);
+}
+
+.koleksi .burung4{
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.koleksi .burung4:hover{
+    transform: scale(1.1);
+}

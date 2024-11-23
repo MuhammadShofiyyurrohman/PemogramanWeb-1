@@ -1,0 +1,142 @@
+body{
+    background-color: greenyellow; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0%;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.container{
+    background-color: burlywood;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+.quote{
+    background-color: yellow;
+    padding: 10px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    border: 3px dotted red;
+    border-right: 2px dotted yellow;
+    border-bottom: 2px dotted yellow;
+}
+
+.link {
+    text-align: center;
+}
+
+.link a {
+    font-weight: bold;
+    color: rgb(red, green, blue);
+}
+
+.images {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.images img {
+    width: 200px;
+    margin: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.isi p:first-child::first-letter {
+    color: blue;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.koleksi {
+    text-align: center;
+}
+
+.koleksi .burung1{
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.koleksi .burung1:hover{
+    transform: scale(1.1);
+}
+
+.koleksi .burung2{
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+    
+}
+.koleksi .burung2:hover{
+    transform: scale(1.1);
+}
+
+.koleksi .burung3{
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+    
+}
+.koleksi .burung3:hover{
+    transform: scale(1.1);
+}
+
+.koleksi .burung4{
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.koleksi .burung4:hover{
+    transform: scale(1.1);
+}
+
+.promo{
+    color: red;
+    text-align: center;
+}
+
+.apk {
+    text-align: center;
+
+}
+
+.apk a {
+    font-weight: bold;
+    background-color: yellow;
+    color: rgb(red, green, blue);
+    width: 50%;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#tombol {
+    background-color: yellow;
+    color: black;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#tombol:hover {
+    background-color: red;
+}

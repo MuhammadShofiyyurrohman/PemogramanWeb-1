@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manfaat Vitamin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            gap: 50px;
+            margin: 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 600px;
+            background-color: #a57a3b;
+            color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px black;
+        }
+        .vitamin-item {
+            position: relative;
+            margin-bottom: 20px;
+            padding-left: 25px;
+        }
+        .vitamin-item::before {
+            content: "";
+            position: absolute;
+            top: 8px;
+            left: 0;
+            width: 10px;
+            height: 10px;
+            background-color: #ffffff;
+            border-radius: 50%;
+        }
+        .vitamin-item h3 {
+            margin: 0;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .vitamin-item p {
+            margin: 5px 0 0 0;
+            font-size: 0.95em;
+            line-height: 1.5;
+        }
+        .dotted-line {
+            border-left: 2px dashed #ffffff;
+            height: 40px;
+            margin: -10px 0 10px 12px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 100px;
+        }
+        .table-container {
+            width: 80%;
+            max-width: 600px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 1em;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #cccccc;
+        }
+        th {
+            background-color: #4d79ff;
+            color: #ffffff;
+        }
+        tr:nth-child(even) {
+            background-color: #e6f0ff;
+        }
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="vitamin-item">
+            <h3>1. Vitamin E</h3>
+            <p>Memiliki <i>anti aging</i> yang bisa mendorong perawatan kulit alami</p>
+        </div>
+        <div class="dotted-line"></div>
+        <div class="vitamin-item">
+            <h3>2. Vitamin K</h3>
+            <p>Membantu mencegah terjadinya <i>osteoporosis</i></p>
+        </div>
+        <div class="dotted-line"></div>
+        <div class="vitamin-item">
+            <h3>3. Vitamin B5</h3>
+            <p>Membantu menurunkan tingkat <i>stress</i>, meringankan rasa sakit</p>
+        </div>
+        <div class="dotted-line"></div>
+        <div class="vitamin-item">
+            <h3>4. Vitamin B6</h3>
+            <p>Membantu <i>treat diabetes</i>, pendarahan menstruasi, insomnia</p>
+        </div>
+    </div>
+
+    <div class="table-container">
+        <table>
+            <tr>
+                <th>No</th>
+                <th>Jenis Alpukat</th>
+                <th>Harga 1 Kg</th>
+                <th>Harga 2 Kg</th>
+                <th>Harga 3 Kg</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Alpukat Mentega</td>
+                <td>Rp. 35.000,-</td>
+                <td>Rp. 65.000,-</td>
+                <td>Rp. 90.000,-</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Alpukat Miki</td>
+                <td>Rp. 50.000,-</td>
+                <td>Rp. 90.000,-</td>
+                <td>Rp. 135.000,-</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Alpukat Aligator</td>
+                <td>Rp. 30.000,-</td>
+                <td>Rp. 55.000,-</td>
+                <td>Rp. 80.000,-</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Alpukat Kendil</td>
+                <td>Rp. 40.000,-</td>
+                <td>Rp. 75.000,-</td>
+                <td>Rp. 100.000,-</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
