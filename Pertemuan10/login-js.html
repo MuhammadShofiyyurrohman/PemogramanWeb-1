@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Autmetication</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <form id="loginform" onsubmit="login()">
+        <label for="username">Username :</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <label for="password">Password :</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        <input type="submit" value="Login"></input>
+        <input type="reset" value="Batal"></input>
+    </form>
+
+<!-- Program Javascript -->
+    <script>
+        function login() {
+            // Mengambil nilai Username dan password dari form sesuai dengan yang 
+            let user = document.getElementById("username").value;
+            let pass = document.getElementById("password").value;
+            let form = document.getElementById("loginform").value;
+
+            if (user == "rahman" && pass == "12347") {
+                alert("Login Berhasil");
+                form.setAttribute("action", "../pertemuan10/chat-js.html");
+            } else {
+                alert("Login Gagal, Coba Lagi!!");
+            }
+
+        }
+    </script>
+</body>
+</html>
